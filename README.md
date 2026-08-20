@@ -1,69 +1,57 @@
-# Olá, eu sou Juan Gabriel 👋
+<h1 align="center">Juan Gabriel</h1>
 
-Estudante de **Análise e Desenvolvimento de Sistemas** e desenvolvedor em formação, com foco em construir aplicações web completas e transformar ideias em projetos funcionais.
+<p align="center">
+  Estudante de Análise e Desenvolvimento de Sistemas • Desenvolvimento Web • Python & JavaScript
+</p>
 
-Atualmente venho aprofundando meus conhecimentos em desenvolvimento backend, bancos de dados, APIs, segurança e deploy de aplicações.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+</p>
 
-## Tecnologias
+## Sobre mim
 
-* Python
-* JavaScript
-* HTML5
-* CSS3
-* SQL
-* PostgreSQL
-* SQLite
-* Git & GitHub
-* Docker
-* GitHub Actions
+Sou estudante de **Análise e Desenvolvimento de Sistemas** e uso meus projetos para transformar estudo em prática. Meu foco atual é desenvolvimento web, principalmente backend com Python, integração com bancos de dados, segurança, automação e deploy.
+
+Procuro construir projetos que tenham um problema claro para resolver, regras de negócio reais e uma estrutura que eu consiga evoluir à medida que aprendo novas tecnologias.
 
 ## Projeto em destaque
 
-### Aurea Finance
+### [Aurea Finance](https://github.com/Juan01304/aurea-finance)
 
-Aplicação web de planejamento financeiro pessoal desenvolvida para ajudar usuários a entender quanto podem gastar sem comprometer contas, metas e prioridades financeiras.
+Aplicação web de planejamento financeiro pessoal que combina renda, contas, transações, metas e limites por categoria para calcular quanto é seguro gastar no mês.
 
-O projeto possui:
+**O que o projeto já demonstra:**
 
-* backend desenvolvido em Python;
-* frontend em HTML, CSS e JavaScript;
-* sessões server-side e proteção CSRF;
-* SQLite em ambiente local;
-* PostgreSQL em produção;
-* modo de demonstração isolado;
-* motor próprio para análise do orçamento;
-* assistente contextual baseado nos dados financeiros;
-* Docker para implantação;
-* CI automatizada com GitHub Actions;
-* configuração de deploy para Render.
+- backend em Python e frontend em HTML, CSS e JavaScript;
+- motor financeiro determinístico para cálculo de orçamento;
+- SQLite no desenvolvimento e PostgreSQL quando `DATABASE_URL` está configurada;
+- sessões server-side e proteção CSRF;
+- modo de demonstração com dados isolados;
+- Docker e configuração de deploy para Render;
+- CI com GitHub Actions, incluindo smoke tests e validação com PostgreSQL.
 
-**Repositório:** [Aurea Finance](https://github.com/Juan01304/aurea-finance)
+## Tecnologias e ferramentas
 
-## Atualmente estudando
+`Python` • `JavaScript` • `HTML` • `CSS` • `SQL` • `PostgreSQL` • `SQLite` • `Git` • `GitHub` • `Docker` • `GitHub Actions`
 
-* desenvolvimento web full-stack;
-* arquitetura de aplicações;
-* bancos de dados;
-* APIs;
-* segurança web;
-* boas práticas de engenharia de software.
+## Em evolução
 
-## Objetivo
+Atualmente aprofundando conhecimentos em:
 
-Continuar evoluindo como desenvolvedor através de projetos reais, estudos e experiências práticas, buscando oportunidades para trabalhar profissionalmente com tecnologia.
+- arquitetura e organização de aplicações;
+- APIs e backend;
+- bancos de dados relacionais;
+- segurança web;
+- testes e integração contínua;
+- deploy e ambientes de produção.
 
+---
 
-<!--
-**Juan01304/Juan01304** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  Construindo, testando, errando melhor e transformando cada projeto em um degrau técnico.
+</p>
