@@ -1,7 +1,13 @@
 <h1 align="center">Juan Gabriel</h1>
 
 <p align="center">
-  Estudante de Análise e Desenvolvimento de Sistemas • Desenvolvimento Web • Python & JavaScript
+  Estudante de Análise e Desenvolvimento de Sistemas • Backend com Python • Desenvolvimento Web
+</p>
+
+<p align="center">
+  <a href="https://aurea-finance.onrender.com"><strong>🚀 Ver projeto funcionando</strong></a>
+  ·
+  <a href="https://github.com/Juan01304/aurea-finance"><strong>Explorar código</strong></a>
 </p>
 
 <p align="center">
@@ -15,33 +21,43 @@
 
 ## Sobre mim
 
-Sou estudante de **Análise e Desenvolvimento de Sistemas** e uso meus projetos para transformar estudo em prática. Meu foco atual é desenvolvimento web, principalmente backend com Python, integração com bancos de dados, segurança, automação e deploy.
+Sou estudante de **Análise e Desenvolvimento de Sistemas** e transformo estudo em aplicações completas. Meu foco atual é desenvolvimento web, principalmente backend com Python, bancos de dados, segurança, testes e deploy.
 
-Procuro construir projetos que tenham um problema claro para resolver, regras de negócio reais e uma estrutura que eu consiga evoluir à medida que aprendo novas tecnologias.
+Gosto de projetos que resolvem um problema claro, possuem regras de negócio reais e podem ser demonstrados funcionando. Estou construindo experiência prática e me preparando para minha primeira oportunidade em desenvolvimento de software.
 
 ## Projeto em destaque
 
 ### [Aurea Finance](https://github.com/Juan01304/aurea-finance)
 
-Aplicação web de planejamento financeiro pessoal que combina renda, contas, transações, metas e limites por categoria para calcular quanto é seguro gastar no mês.
+Aplicação full-stack de planejamento financeiro pessoal que calcula quanto é seguro gastar sem comprometer contas, metas e prioridades do mês.
 
-**O que o projeto já demonstra:**
+<p>
+  <a href="https://aurea-finance.onrender.com"><strong>Acessar demonstração</strong></a>
+  ·
+  <a href="https://github.com/Juan01304/aurea-finance/actions"><strong>Ver integração contínua</strong></a>
+</p>
+
+**O projeto demonstra:**
 
 - backend em Python e frontend em HTML, CSS e JavaScript;
-- motor financeiro determinístico para cálculo de orçamento;
-- SQLite no desenvolvimento e PostgreSQL quando `DATABASE_URL` está configurada;
-- sessões server-side e proteção CSRF;
-- modo de demonstração com dados isolados;
-- Docker e configuração de deploy para Render;
-- CI com GitHub Actions, incluindo smoke tests e validação com PostgreSQL.
+- autenticação com confirmação por e-mail, senha, OTP e recuperação de acesso;
+- motor financeiro determinístico separado da camada de IA;
+- SQLite no desenvolvimento e PostgreSQL no deploy;
+- sessões server-side, CSRF e proteções para fluxos sensíveis;
+- PWA, Docker, Render e GitHub Actions;
+- testes unitários, smoke tests e validação com PostgreSQL.
 
-## Tecnologias e ferramentas
+## Tecnologias
 
-`Python` • `JavaScript` • `HTML` • `CSS` • `SQL` • `PostgreSQL` • `SQLite` • `Git` • `GitHub` • `Docker` • `GitHub Actions`
+| Área | Ferramentas |
+|---|---|
+| Backend | Python, APIs HTTP, autenticação, regras de negócio |
+| Frontend | JavaScript, HTML, CSS, PWA |
+| Dados | SQL, PostgreSQL, SQLite |
+| Qualidade | unittest, smoke tests, GitHub Actions |
+| Infraestrutura | Git, GitHub, Docker, Render |
 
-## Em evolução
-
-Atualmente aprofundando conhecimentos em:
+## Atualmente aprofundando
 
 - arquitetura e organização de aplicações;
 - APIs e backend;
