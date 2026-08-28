@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Imperium Barbearia — site demonstrativo de uma barbearia premium, desenvolvido para portfólio." />
+  <meta name="theme-color" content="#0d0d0d" />
+  <title>Imperium Barbearia | Corte, barba e presença</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+
+  <header class="header" id="topo">
+    <div class="container nav-wrap">
+      <a class="brand" href="#topo" aria-label="Imperium Barbearia — início">
+        <img src="assets/logo.svg" alt="" width="42" height="42" />
+        <span><strong>IMPERIUM</strong><small>BARBEARIA</small></span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+      <nav class="nav" id="main-nav" aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a><a href="#experiencia">Experiência</a><a href="#equipe">Equipe</a><a href="#depoimentos">Avaliações</a><a class="nav-cta" href="#agendamento">Agendar horário</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-noise" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">TRADIÇÃO • ESTILO • PRECISÃO</p>
+          <h1 id="hero-title">Seu corte fala antes de você.</h1>
+          <p class="hero-text">Corte, barba e acabamento com atenção a cada detalhe. Uma barbearia criada para quem entende que presença também se constrói.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#agendamento">Agendar agora</a><a class="button button-ghost" href="#servicos">Ver serviços</a></div>
+          <div class="hero-meta" aria-label="Diferenciais"><div><strong>4,9</strong><span>avaliação média</span></div><div><strong>+1.200</strong><span>atendimentos</span></div><div><strong>6 dias</strong><span>por semana</span></div></div>
+        </div>
+        <div class="hero-art reveal" aria-hidden="true">
+          <div class="art-frame"><span class="art-index">01</span><img src="assets/barber-chair.svg" alt="" /><div class="art-caption"><span>EST. 2026</span><strong>THE CLASSIC ROOM</strong></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Serviços em destaque"><div class="ticker-track"><span>CORTE CLÁSSICO</span><b>✦</b><span>BARBA</span><b>✦</b><span>DEGRADÊ</span><b>✦</b><span>ACABAMENTO</span><b>✦</b><span>TRATAMENTO</span><b>✦</b><span>CORTE CLÁSSICO</span><b>✦</b><span>BARBA</span><b>✦</b><span>DEGRADÊ</span><b>✦</b><span>ACABAMENTO</span><b>✦</b><span>TRATAMENTO</span><b>✦</b></div></section>
+
+    <section class="section" id="servicos"><div class="container">
+      <div class="section-heading reveal"><div><p class="eyebrow">NOSSO MENU</p><h2>Serviços para manter o padrão lá em cima.</h2></div><p>Valores demonstrativos. Em um projeto real, esta área pode ser integrada a um sistema de agenda, pagamento ou catálogo administrável.</p></div>
+      <div class="services-grid">
+        <article class="service-card reveal"><span class="service-number">01</span><h3>Corte</h3><p>Consultoria rápida de estilo, corte na tesoura e/ou máquina e finalização.</p><div class="service-bottom"><strong>R$ 45</strong><span>45 min</span></div></article>
+        <article class="service-card reveal"><span class="service-number">02</span><h3>Barba</h3><p>Toalha quente, alinhamento, navalha e acabamento para um visual limpo.</p><div class="service-bottom"><strong>R$ 35</strong><span>35 min</span></div></article>
+        <article class="service-card featured reveal"><span class="service-badge">MAIS PEDIDO</span><span class="service-number">03</span><h3>Combo Imperium</h3><p>Corte completo + barba com ritual de toalha quente e finalização premium.</p><div class="service-bottom"><strong>R$ 70</strong><span>75 min</span></div></article>
+        <article class="service-card reveal"><span class="service-number">04</span><h3>Pezinho</h3><p>Contorno, costeletas e nuca para manter o corte alinhado entre visitas.</p><div class="service-bottom"><strong>R$ 20</strong><span>20 min</span></div></article>
+        <article class="service-card reveal"><span class="service-number">05</span><h3>Camuflagem</h3><p>Disfarce de fios brancos com acabamento natural na barba ou cabelo.</p><div class="service-bottom"><strong>R$ 40</strong><span>30 min</span></div></article>
+        <article class="service-card reveal"><span class="service-number">06</span><h3>Sobrancelha</h3><p>Limpeza e alinhamento sutil, preservando o formato masculino natural.</p><div class="service-bottom"><strong>R$ 15</strong><span>15 min</span></div></article>
+      </div>
+    </div></section>
+
+    <section class="section experience" id="experiencia"><div class="container experience-grid">
+      <div class="experience-art reveal" aria-hidden="true"><div class="cut-card cut-card-a"><span>01</span><strong>Precisão</strong></div><div class="cut-card cut-card-b"><span>02</span><strong>Conforto</strong></div><div class="cut-card cut-card-c"><span>03</span><strong>Identidade</strong></div></div>
+      <div class="experience-copy reveal"><p class="eyebrow">MAIS QUE UM CORTE</p><h2>Uma pausa na rotina. Um retorno com outra presença.</h2><p>A proposta da Imperium é simples: ambiente confortável, atendimento sem pressa e técnica consistente. Você chega do seu jeito e sai com o visual alinhado ao que quer transmitir.</p><ul class="check-list"><li><span>✓</span> Atendimento com horário marcado</li><li><span>✓</span> Produtos profissionais</li><li><span>✓</span> Ambiente climatizado</li><li><span>✓</span> Wi-Fi e café por conta da casa</li></ul><a class="text-link" href="#agendamento">Quero reservar meu horário <span>↗</span></a></div>
+    </div></section>
+
+    <section class="section" id="equipe"><div class="container">
+      <div class="section-heading reveal"><div><p class="eyebrow">QUEM SEGURA A NAVALHA</p><h2>Escolha seu barbeiro.</h2></div><p>Perfis demonstrativos pensados para mostrar como um site comercial pode valorizar equipe, especialidades e disponibilidade.</p></div>
+      <div class="team-grid">
+        <article class="barber-card reveal"><div class="avatar avatar-one" aria-hidden="true">MR</div><div><h3>Marcos Reis</h3><p>Degradê • freestyle • navalha</p></div><span>8 anos de experiência</span></article>
+        <article class="barber-card reveal"><div class="avatar avatar-two" aria-hidden="true">LC</div><div><h3>Lucas Costa</h3><p>Clássico • tesoura • barba</p></div><span>6 anos de experiência</span></article>
+        <article class="barber-card reveal"><div class="avatar avatar-three" aria-hidden="true">GN</div><div><h3>Gabriel Nunes</h3><p>Social • low fade • acabamento</p></div><span>5 anos de experiência</span></article>
+      </div>
+    </div></section>
+
+    <section class="section testimonials" id="depoimentos"><div class="container">
+      <div class="section-heading reveal"><div><p class="eyebrow">CLIENTES</p><h2>Quem senta na cadeira, volta.</h2></div><div class="rating" aria-label="Avaliação média 4,9 de 5"><strong>4,9</strong><span>★★★★★</span><small>+180 avaliações</small></div></div>
+      <div class="testimonial-grid"><blockquote class="quote reveal"><p>“Atendimento no horário, corte muito bem feito e ambiente absurdo. Virou minha barbearia.”</p><footer>— Rafael M.</footer></blockquote><blockquote class="quote reveal"><p>“Expliquei mais ou menos o que queria e o barbeiro acertou exatamente. Excelente acabamento.”</p><footer>— André P.</footer></blockquote><blockquote class="quote reveal"><p>“O combo de corte e barba vale muito a pena. Atendimento cuidadoso do começo ao fim.”</p><footer>— João V.</footer></blockquote></div>
+    </div></section>
+
+    <section class="section booking" id="agendamento"><div class="container booking-grid">
+      <div class="booking-copy reveal"><p class="eyebrow">AGENDE EM 1 MINUTO</p><h2>Escolha o serviço. O resto é com a gente.</h2><p>Preencha os dados e o site monta uma mensagem pronta para WhatsApp. O número usado neste projeto é demonstrativo e pode ser alterado no arquivo <code>script.js</code>.</p><div class="hours"><div><span>Seg — Sex</span><strong>09:00 — 20:00</strong></div><div><span>Sábado</span><strong>09:00 — 18:00</strong></div><div><span>Domingo</span><strong>Fechado</strong></div></div></div>
+      <form class="booking-form reveal" id="booking-form">
+        <div class="field-row"><label>Nome<input type="text" name="name" autocomplete="name" placeholder="Seu nome" required /></label><label>Telefone<input type="tel" name="phone" autocomplete="tel" placeholder="(21) 99999-9999" required /></label></div>
+        <label>Serviço<select name="service" required><option value="">Selecione</option><option>Corte — R$ 45</option><option>Barba — R$ 35</option><option>Combo Imperium — R$ 70</option><option>Pezinho — R$ 20</option><option>Camuflagem — R$ 40</option><option>Sobrancelha — R$ 15</option></select></label>
+        <div class="field-row"><label>Data<input type="date" name="date" required /></label><label>Horário<select name="time" required><option value="">Selecione</option><option>09:00</option><option>10:00</option><option>11:00</option><option>12:00</option><option>14:00</option><option>15:00</option><option>16:00</option><option>17:00</option><option>18:00</option><option>19:00</option></select></label></div>
+        <label>Barbeiro<select name="barber"><option>Sem preferência</option><option>Marcos Reis</option><option>Lucas Costa</option><option>Gabriel Nunes</option></select></label>
+        <button class="button button-primary button-full" type="submit">Preparar agendamento</button><p class="form-note">Projeto demonstrativo — nenhum agendamento real será realizado.</p>
+      </form>
+    </div></section>
+
+    <section class="location"><div class="container location-grid"><div><p class="eyebrow">ONDE ESTAMOS</p><h2>Na sua rota. No seu ritmo.</h2><p>Rua Exemplo, 123 — Méier, Rio de Janeiro — RJ</p><small>Endereço fictício utilizado apenas para demonstração.</small></div><div class="map-demo" aria-label="Mapa ilustrativo"><span class="map-road road-one"></span><span class="map-road road-two"></span><span class="map-road road-three"></span><span class="map-pin">I</span><p>IMPERIUM</p></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container footer-grid"><div class="brand footer-brand"><img src="assets/logo.svg" alt="" width="42" height="42" /><span><strong>IMPERIUM</strong><small>BARBEARIA</small></span></div><p>Site demonstrativo desenvolvido para portfólio por <a href="https://github.com/Juan01304" target="_blank" rel="noreferrer">Juan Gabriel</a>.</p><a href="#topo">Voltar ao topo ↑</a></div></footer>
+
+  <dialog class="booking-dialog" id="booking-dialog"><button class="dialog-close" type="button" aria-label="Fechar">×</button><p class="eyebrow">PRONTO PARA ENVIAR</p><h2>Confira seu pedido</h2><div id="booking-summary" class="booking-summary"></div><div class="dialog-actions"><a class="button button-primary" id="whatsapp-link" href="#" target="_blank" rel="noreferrer">Abrir WhatsApp</a><button class="button button-ghost" type="button" id="copy-message">Copiar mensagem</button></div><p class="form-note">O WhatsApp deste projeto usa um número de demonstração. Troque a constante <code>WHATSAPP_NUMBER</code> no JavaScript antes de usar comercialmente.</p></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
