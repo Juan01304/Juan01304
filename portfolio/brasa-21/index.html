@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Brasa 21 — hamburgueria fictícia criada como projeto demonstrativo de portfólio." />
+  <meta name="theme-color" content="#17130f" />
+  <title>Brasa 21 | Burger na brasa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <header class="header" id="topo">
+    <div class="container nav-wrap">
+      <a class="brand" href="#topo" aria-label="Brasa 21 — início"><img src="assets/logo.svg" alt="" width="44" height="44" /><span><strong>BRASA</strong><small>21</small></span></a>
+      <nav class="nav" aria-label="Navegação principal"><a href="#cardapio">Cardápio</a><a href="#sobre">A casa</a><a href="#entrega">Entrega</a></nav>
+      <button class="cart-button" id="cart-button" type="button" aria-controls="cart-drawer" aria-expanded="false"><span>Carrinho</span><b id="cart-count">0</b></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">SMASH • BRASA • SEM FRESCURA</p>
+          <h1>Fogo alto.<br><em>Fome resolvida.</em></h1>
+          <p>Hambúrguer prensado na chapa, carne selada no ponto e combinações feitas para chegar à mesa sem enrolação.</p>
+          <div class="hero-actions"><a class="button primary" href="#cardapio">Ver cardápio</a><button class="button ghost" type="button" data-open-cart>Montar pedido</button></div>
+          <div class="status-line"><span class="status-dot"></span><strong id="store-status">Verificando horário...</strong><small>• entrega média 35–50 min</small></div>
+        </div>
+        <div class="hero-art reveal"><div class="hero-badge">DESDE<br><strong>2026</strong></div><img src="assets/burger.svg" alt="Ilustração de um hambúrguer artesanal" /></div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Destaques"><div><span>CARNE 100% BOVINA</span><b>✦</b><span>PÃO BRIOCHE</span><b>✦</b><span>MOLHO DA CASA</span><b>✦</b><span>BATATA CROCANTE</span><b>✦</b><span>CARNE 100% BOVINA</span><b>✦</b><span>PÃO BRIOCHE</span><b>✦</b><span>MOLHO DA CASA</span><b>✦</b><span>BATATA CROCANTE</span><b>✦</b></div></section>
+
+    <section class="section menu-section" id="cardapio">
+      <div class="container">
+        <div class="section-heading reveal"><div><p class="eyebrow">CARDÁPIO</p><h2>Escolhe o seu.<br>O fogo faz o resto.</h2></div><p>Cardápio demonstrativo com filtros e carrinho funcional. Todos os produtos, preços e informações são fictícios.</p></div>
+        <div class="filters" id="filters" role="group" aria-label="Filtrar cardápio"></div>
+        <div class="menu-grid" id="menu-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre"><div class="container about-grid">
+      <div class="about-art reveal"><span class="stamp">BRASA<br>DE VERDADE</span><div class="flame flame-a"></div><div class="flame flame-b"></div><div class="flame flame-c"></div></div>
+      <div class="about-copy reveal"><p class="eyebrow">NOSSA IDEIA</p><h2>Menos firula.<br>Mais sabor.</h2><p>A Brasa 21 foi pensada como uma hamburgueria urbana, direta e memorável. O foco é produto simples bem executado: carne, pão, queijo, molho e ponto certo.</p><div class="feature-list"><article><strong>01</strong><div><h3>Feito na hora</h3><p>Nada fica esperando pedido.</p></div></article><article><strong>02</strong><div><h3>Receita objetiva</h3><p>Ingredientes que fazem sentido juntos.</p></div></article><article><strong>03</strong><div><h3>Pedido fácil</h3><p>Escolha, monte e envie pelo WhatsApp.</p></div></article></div></div>
+    </div></section>
+
+    <section class="section delivery" id="entrega"><div class="container delivery-grid">
+      <div class="reveal"><p class="eyebrow">DELIVERY</p><h2>Da chapa<br>pra sua porta.</h2><p>Escolha retirada ou entrega no fechamento do carrinho. Em um projeto real, esta etapa pode ser integrada a pagamentos, cálculo de frete e gestão de pedidos.</p></div>
+      <div class="delivery-card reveal"><span>RAIO DEMONSTRATIVO</span><strong>até 6 km</strong><p>Taxa fixa fictícia de R$ 6,00 para demonstrar cálculo automático no carrinho.</p><small>Rua Exemplo, 21 — Méier, Rio de Janeiro — RJ</small></div>
+    </div></section>
+  </main>
+
+  <aside class="cart-drawer" id="cart-drawer" aria-hidden="true" aria-label="Seu pedido">
+    <div class="cart-head"><div><span>SEU PEDIDO</span><h2>Carrinho</h2></div><button class="icon-button" id="cart-close" type="button" aria-label="Fechar carrinho">×</button></div>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="empty-cart" id="empty-cart"><strong>Ainda está vazio.</strong><p>Adicione um burger e ele aparece aqui.</p></div>
+    <form id="checkout-form" class="checkout-form">
+      <fieldset><legend>Como vai receber?</legend><div class="segmented"><label><input type="radio" name="fulfillment" value="retirada" checked />Retirada</label><label><input type="radio" name="fulfillment" value="entrega" />Entrega</label></div></fieldset>
+      <div class="delivery-fields" id="delivery-fields" hidden><label>Endereço<input name="address" type="text" autocomplete="street-address" placeholder="Rua, número e complemento" /></label></div>
+      <label>Seu nome<input name="name" type="text" autocomplete="name" placeholder="Nome para o pedido" required /></label>
+      <label>Pagamento<select name="payment" required><option value="">Selecione</option><option>Pix</option><option>Dinheiro</option><option>Cartão na entrega</option></select></label>
+      <label>Observação<input name="note" type="text" placeholder="Ex.: sem cebola" /></label>
+      <div class="totals"><div><span>Subtotal</span><strong id="subtotal">R$ 0,00</strong></div><div><span>Entrega</span><strong id="delivery-fee">R$ 0,00</strong></div><div class="grand-total"><span>Total</span><strong id="grand-total">R$ 0,00</strong></div></div>
+      <button class="button primary full" type="submit" id="checkout-button">Enviar pedido pelo WhatsApp</button>
+      <p class="demo-note">Demonstração: o número de WhatsApp é fictício e nenhum pedido real será enviado.</p>
+    </form>
+  </aside>
+  <div class="backdrop" id="backdrop" hidden></div>
+
+  <footer class="footer"><div class="container footer-grid"><div class="brand"><img src="assets/logo.svg" alt="" width="40" height="40" /><span><strong>BRASA</strong><small>21</small></span></div><p>Projeto demonstrativo desenvolvido para portfólio por <a href="https://github.com/Juan01304" target="_blank" rel="noreferrer">Juan Gabriel</a>.</p><a href="#topo">Voltar ao topo ↑</a></div></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
