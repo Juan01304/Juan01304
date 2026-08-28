@@ -57,7 +57,7 @@ Aplicação full-stack de planejamento financeiro pessoal que calcula quanto é 
 | Qualidade | unittest, smoke tests, GitHub Actions |
 | Infraestrutura | Git, GitHub, Docker, Render |
 
-## Atualmente aprofundando
+## Atualmente melhorando
 
 - arquitetura e organização de aplicações;
 - APIs e backend;
